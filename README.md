@@ -55,3 +55,17 @@ http://127.0.0.1:8000/docs (This will let you to test my agent)
 ##9.then press excute button
 
 ##10.The output will be shown under responses and this is the output 
+
+🧰 Tools / Libraries
+FastAPI
+→ Backend framework to run your agent as an API service
+Google Gemini API
+→ AI model used to generate onboarding plans and structured outputs
+Slack API (slack_sdk / Slack Webhooks)
+→ Sends onboarding messages and updates to Slack channels
+Python-dotenv
+→ Loads environment variables from .env file (API keys, tokens)
+Requests
+→ Handles HTTP requests to external services/APIs
+Uvicorn
+→ ASGI server used to run your FastAPI app locally
